@@ -1,0 +1,48 @@
+{
+    "K":	2,
+    "L":	1,
+    "ac_kwargs":	{},
+    "act_noise":	0.1,
+    "actor_critic":	"MLPActorCritic",
+    "batch_size":	100,
+    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7f3a0fd7ef28>",
+    "epochs":	500,
+    "exp_name":	"ddpg_dmWalkerWalk_256",
+    "gamma":	0.99,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7f3a0ffa0630>":	{
+            "epoch_dict":	{},
+            "exp_name":	"ddpg_dmWalkerWalk_256",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/home/msarkar/Sukriti/spinningup/data/ddpg_dmWalkerWalk_256/ddpg_dmWalkerWalk_256_s666",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/home/msarkar/Sukriti/spinningup/data/ddpg_dmWalkerWalk_256/ddpg_dmWalkerWalk_256_s666/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"ddpg_dmWalkerWalk_256",
+        "output_dir":	"/home/msarkar/Sukriti/spinningup/data/ddpg_dmWalkerWalk_256/ddpg_dmWalkerWalk_256_s666"
+    },
+    "max_ep_len":	1000,
+    "num_test_episodes":	10,
+    "pi_lr":	0.001,
+    "polyak":	0.995,
+    "polyak_prev":	0.0,
+    "q_lr":	0.001,
+    "replay_size":	1000000,
+    "save_freq":	1,
+    "scaled":	true,
+    "seed":	666,
+    "start_steps":	10000,
+    "steps_per_epoch":	4000,
+    "update_after":	1000,
+    "update_every":	50,
+    "update_prev_after":	1000,
+    "update_prev_every":	50,
+    "use_retro_loss":	false
+}

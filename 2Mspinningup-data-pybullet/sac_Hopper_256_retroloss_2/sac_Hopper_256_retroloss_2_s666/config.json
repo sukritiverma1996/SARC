@@ -1,0 +1,47 @@
+{
+    "K":	2,
+    "L":	1,
+    "ac_kwargs":	{},
+    "actor_critic":	"MLPActorCritic",
+    "alpha":	0.2,
+    "batch_size":	100,
+    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7ff635e37158>",
+    "epochs":	500,
+    "exp_name":	"sac_Hopper_256_retroloss_2",
+    "gamma":	0.99,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7ff635e367b8>":	{
+            "epoch_dict":	{},
+            "exp_name":	"sac_Hopper_256_retroloss_2",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/home/ubuntu/retrospection-rl-master/data/sac_Hopper_256_retroloss_2/sac_Hopper_256_retroloss_2_s666",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/home/ubuntu/retrospection-rl-master/data/sac_Hopper_256_retroloss_2/sac_Hopper_256_retroloss_2_s666/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"sac_Hopper_256_retroloss_2",
+        "output_dir":	"/home/ubuntu/retrospection-rl-master/data/sac_Hopper_256_retroloss_2/sac_Hopper_256_retroloss_2_s666"
+    },
+    "lr":	0.001,
+    "max_ep_len":	1000,
+    "num_test_episodes":	10,
+    "polyak":	0.995,
+    "polyak_prev":	0.0,
+    "replay_size":	1000000,
+    "save_freq":	1,
+    "scaled":	true,
+    "seed":	666,
+    "start_steps":	10000,
+    "steps_per_epoch":	4000,
+    "update_after":	1000,
+    "update_every":	50,
+    "update_prev_after":	1000,
+    "update_prev_every":	50,
+    "use_retro_loss":	true
+}

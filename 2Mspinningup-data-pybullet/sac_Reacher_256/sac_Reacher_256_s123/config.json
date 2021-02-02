@@ -1,0 +1,47 @@
+{
+    "K":	2,
+    "L":	1,
+    "ac_kwargs":	{},
+    "actor_critic":	"MLPActorCritic",
+    "alpha":	0.2,
+    "batch_size":	100,
+    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7f97ed0f5158>",
+    "epochs":	500,
+    "exp_name":	"sac_Reacher_256",
+    "gamma":	0.99,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7f97ed0f4780>":	{
+            "epoch_dict":	{},
+            "exp_name":	"sac_Reacher_256",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/home/ubuntu/retrospection-rl-master/data/sac_Reacher_256/sac_Reacher_256_s123",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/home/ubuntu/retrospection-rl-master/data/sac_Reacher_256/sac_Reacher_256_s123/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"sac_Reacher_256",
+        "output_dir":	"/home/ubuntu/retrospection-rl-master/data/sac_Reacher_256/sac_Reacher_256_s123"
+    },
+    "lr":	0.001,
+    "max_ep_len":	1000,
+    "num_test_episodes":	10,
+    "polyak":	0.995,
+    "polyak_prev":	0.0,
+    "replay_size":	1000000,
+    "save_freq":	1,
+    "scaled":	true,
+    "seed":	123,
+    "start_steps":	10000,
+    "steps_per_epoch":	4000,
+    "update_after":	1000,
+    "update_every":	50,
+    "update_prev_after":	1000,
+    "update_prev_every":	50,
+    "use_retro_loss":	false
+}
