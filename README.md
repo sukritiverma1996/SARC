@@ -11,5 +11,11 @@ We propose a new algorithm, SARC that builds on top of SAC. We use the original 
  2. `cd spinningup`<br>
  3. `pip install -e .` to set up required libraries. <br>
  4. `pip install pybullet` for open-source continuous control environments. <br>
- 5. To run SAC: 'python -m spinup.run sac --env_name AntBulletEnv --hid [400,300] --exp_name sac_Ant_400300 --use_retro_loss False'. <br>
- 6. To run SARC: 'python -m spinup.run sac --env_name AntBulletEnv --hid [400,300] --exp_name sac_Ant_400300_retroloss'. <br>
+ 5. To run SAC: `python -m spinup.run sac --env_name AntBulletEnv --hid [400,300] --exp_name sac_Ant_400300 --use_retro_loss False`. <br>
+ 6. To run SARC: `python -m spinup.run sac --env_name AntBulletEnv --hid [400,300] --exp_name sac_Ant_400300_retroloss`. <br>
+
+ ## Hyperparams
+ 1. --hid specifies the hidden layer sizes for the critic neural network
+ 2. --env_name selects the environment. List of PyBullet environments: https://github.com/benelot/pybullet-gym
+ 3. --exp_name will create a directory to log all experiment data
+ 4. --use_retro_loss is by default set of True. When set to False, SARC reduces to SAC.
