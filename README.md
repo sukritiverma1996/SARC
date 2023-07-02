@@ -1,5 +1,5 @@
 # Soft Actor Restrospective Critic
-Source code and data of all experimental runs to accompany our RLDM 2022 paper
+Source code and data of all experimental runs to accompany our RLDM 2022 paper: https://arxiv.org/abs/2306.16503
 
 We propose a new algorithm, SARC that builds on top of SAC. We use the original SAC implementation made available by spinningup and modify it to implement SARC. The code can be found inside "spinningup" folder. The data for all DeepMind Control Experiments is within spinningup-data-deepmind-control-suite. The data for all PyBullet Experiments is within 2Mspinningup-data-pybullet. 
 
