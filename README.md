@@ -16,6 +16,13 @@ We propose a new algorithm, SARC that builds on top of SAC. We use the original 
 
  ## Hyperparams
  1. --hid specifies the hidden layer sizes for the critic neural network
- 2. --env_name selects the environment. List of PyBullet environments: https://github.com/benelot/pybullet-gym
+ 2. --env_name selects the environment. List of PyBullet environments: https://github.com/benelot/pybullet-gym. The code will also work with MuJoCo and DeepMind control environments after installing and importing them.
  3. --exp_name will create a directory to log all experiment data
  4. --use_retro_loss is by default set of True. When set to False, SARC reduces to SAC.
+ 5. Like SAC controls updation of target, we also have --update_prev_after, --update_prev_every and polyak_prev for controlling updation of prev networks. You may leave these as default or play around with them
+
+## Acknowledgements and References
+1. https://spinningup.openai.com/en/latest/
+2. https://github.com/benelot/pybullet-gym
+3. https://github.com/deepmind/dm_control/blob/main/dm_control/suite/README.md
+
